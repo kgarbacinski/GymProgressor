@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:checkable="true"
+        android:icon="@drawable/profile_icon"
+        android:title="Your Profile" />
+    <item
+        android:id="@+id/nav_shedule"
+        android:checkable="true"
+        android:icon="@drawable/shedule_icon"
+        android:title="Workout Shedule" />
+    <item
+        android:id="@+id/nav_measurements"
+        android:checkable="true"
+        android:icon="@drawable/measurement_icon"
+        android:title="Measurements" />
+    <item
+        android:id="@+id/nav_review"
+        android:checkable="true"
+        android:icon="@drawable/total_icon"
+        android:title="Review" />
+    <item
+        android:id="@+id/nav_logout"
+        android:checkable="true"
+        android:icon="@drawable/logout_icon"
+        android:title="Log Out" />
+
+</menu>

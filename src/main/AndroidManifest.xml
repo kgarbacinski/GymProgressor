@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.gymprogressor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="android.example.gymprogressor.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBarLayout.NoSoftInput">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="android.example.gymprogressor.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBarLayout"></activity>
+
+        <activity android:name="android.example.gymprogressor.MenuPageActivity"  android:alwaysRetainTaskState="true"></activity>
+        <activity android:name="android.example.gymprogressor.ProfileActivity"  android:alwaysRetainTaskState="true"></activity>
+        <activity android:name="android.example.gymprogressor.SheduleActivity"  android:alwaysRetainTaskState="true"></activity>
+        <activity
+            android:name="android.example.gymprogressor.NotePreviewActivity"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/AppTheme.NoActionBarLayout"></activity>
+        <activity
+            android:name="android.example.gymprogressor.EditNoteActivity"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/AppTheme.NoActionBarLayout.NoSoftInput"></activity>
+        <activity
+            android:name="android.example.gymprogressor.AddNoteActivity"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/AppTheme.NoActionBarLayout"></activity>
+
+        <activity android:name="android.example.gymprogressor.MeasurementsActivity"  android:alwaysRetainTaskState="true"></activity>
+
+        <activity android:name="android.example.gymprogressor.BodyMeasurementActivity"  android:alwaysRetainTaskState="true"></activity>
+        <activity android:name="android.example.gymprogressor.StrengthMeasurementActivity"  android:alwaysRetainTaskState="true"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

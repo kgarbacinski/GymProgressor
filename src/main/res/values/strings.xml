@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gym Progressor</string>
+    <string name="app_subname">Note your progress easily!</string>
+    <string name="app_version">0_03a alpha</string>
+    /*For nav*/
+    <string name="open">Close</string>
+    <string name="close">Open</string>
+
+    /* For Spinner Gender */
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    /* For Spinner Gender */
+    <string-array name="unit">
+        <item>lb</item>
+        <item>kg</item>
+    </string-array>
+</resources>

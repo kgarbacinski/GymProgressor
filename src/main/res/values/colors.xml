@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#90303030</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">#90F1AC11</color>
+    <color name="colorText">#DCE9D7</color>
+    <color name="itemHighlight">#90F1AC11</color>
+    <color name="alternativeColorText">@android:color/black</color>
+    <color name="gradientEnd">#90EBC86A</color>
+    <color name="gradientStart">#90F3BF2A</color>
+    <color name="navMenuColor">#90303030</color>
+    <color name="floatingButtonColor">#D3F1AC11</color>
+    <color name="calendarHeaderColor">#D3F1AC11</color>
+    <color name="calendarSelectionColor">#D3F1AC11</color>
+    <color name="measurementCardColor">#77F1AC11</color>
+
+
+</resources>

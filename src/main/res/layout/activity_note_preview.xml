@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="#90303030"></ImageView>
+
+    <ImageView
+        android:background="@drawable/calendar_bckg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="#90303030"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="6.9">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.9"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="5dp">
+
+            <eightbitlab.com.blurview.BlurView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#99101010">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Exercise"
+                    android:textStyle="bold"></TextView>
+            </eightbitlab.com.blurview.BlurView>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="5dp">
+
+            <eightbitlab.com.blurview.BlurView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99101010">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Wght."
+                    android:textStyle="bold"></TextView>
+            </eightbitlab.com.blurview.BlurView>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="5dp">
+
+            <eightbitlab.com.blurview.BlurView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99101010">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Sets"
+                    android:textStyle="bold"></TextView>
+            </eightbitlab.com.blurview.BlurView>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="5dp">
+
+            <eightbitlab.com.blurview.BlurView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99101010">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Reps"
+                    android:textStyle="bold"></TextView>
+            </eightbitlab.com.blurview.BlurView>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="0dp">
+
+            <eightbitlab.com.blurview.BlurView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99101010">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Break"
+                    android:textStyle="bold"></TextView>
+            </eightbitlab.com.blurview.BlurView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp">
+
+                <eightbitlab.com.blurview.BlurView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#99101010">
+
+                    <LinearLayout
+                        android:id="@+id/parent_linear_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical"></LinearLayout>
+                </eightbitlab.com.blurview.BlurView>
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal"
+        android:layout_marginEnd="5dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/confirmNoteButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_shape"
+            android:onClick="onConfirmField"
+            android:text="Confirm Changes"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/editButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_edit"
+            android:visibility="invisible"
+            app:backgroundTint="@color/floatingButtonColor"
+            app:fabCustomSize="50dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/deleteButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_delete"
+            android:visibility="invisible"
+            app:backgroundTint="@color/floatingButtonColor"
+            app:fabCustomSize="50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
