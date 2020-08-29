@@ -1,7 +1,7 @@
 # GymProgressor
 
 # Screenshots
-<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/89344620_589324268347038_3557870454679011328_n%20(1).jpg" />
+<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_0.jfif" />
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/89388370_547115122454314_6753851208424751104_n%20(1).jpg" />
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/89491767_619437718613283_7288919763168788480_n%20(1).jpg" />
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/89493479_508981683134919_5763099328088375296_n.jpg" />
