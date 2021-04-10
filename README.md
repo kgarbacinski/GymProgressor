@@ -16,6 +16,7 @@
 - Java 8+
 - XML
 - JSON
+- Threading (for processing API's data)
 
 # Download link
 App download link: https://drive.google.com/file/d/14T16zECuSyil8SQhfGjfmQNmmbfXF7VD/view?usp=sharing
