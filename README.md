@@ -4,10 +4,10 @@
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_0.jfif" />
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_1.jfif" />
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_2.jfif" />
-<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_3.jpg" />
-<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_4.jpg" />
-<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_5.jpg" />
-<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_6.jpg" width=50% />
+<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_3.jpg" width=25% />
+<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_4.jpg" width=25% />
+<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_5.jpg" width=25% />
+<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_6.jpg" width=25% />
 
 # Introduction
 - Gym Scheduler app for Android, API 24+.
