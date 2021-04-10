@@ -7,7 +7,7 @@
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_3.jpg" />
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_4.jpg" />
 <img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_5.jpg" />
-<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_6.jpg" />
+<img src="https://github.com/kgarbacinski/GymProgressor/blob/master/gym_progressor_6.jpg" size=50% />
 
 # Introduction
 - Gym Scheduler app for Android, API 24+.
